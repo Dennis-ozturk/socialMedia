@@ -1,3 +1,5 @@
+<?php include './db/config.php'; ?>
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,6 +10,22 @@
     <link rel="stylesheet" type="text/css" media="screen" href="style/style.css" />
 </head>
 <body>
+
+<header>
+    <h1>ZoftDeluxe</h1>
+    <?php 
+        if(isset($_SESSION['email'])){
+
+        
+        ?>
+        <?php
+        }else{
+
+        ?>
+        <?php
+        } 
+    ?>
+</header>
 
 
     

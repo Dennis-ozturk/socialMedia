@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body, html {
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #32CD32;
+    margin-bottom: 20px;
+}
+
+header h1{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    padding-top: 25px;
+    color: #fff;
+}
+
+#formLogin{
+    width: 220px;
+    height: 180px;
+    margin: 0 auto;
+    border: 1px solid #d3d3d3;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #F0F0F0;
+}
+
+.formLogin{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    float: left;
+}
+
+.formLogin h6{
+    font-size: 21px;
+    display: inline;
+}
+
+.formLogin input{
+    width: 200px;
+    height: 25px;
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.formLogin #submit{
+    width: 212px;
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #d3d3d3;
+}
+
+.formLogin #submit:hover{
+    cursor: pointer;
+}
